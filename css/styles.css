@@ -22,6 +22,7 @@
 }
  .photos{
     display: flex;
+    justify-content: space-around;
  } 
 
 body {
@@ -42,8 +43,7 @@ body {
 }
 
 img {
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content:space-around;
     max-width: 100%;
     height: auto;
 }
@@ -165,9 +165,7 @@ display: flex;
 }
 
 .contact { 
-    color: var(--second-text-color-footer);
-    font-size: 14px;
-    line-height: 1.71;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 .contact:hover, .contact:focus{
@@ -195,11 +193,16 @@ display: flex;
 /* footer */
 footer{
     background-color: var(--footer-background-color);
+    display: list-item;
 }
 
 section.footer{
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.list.address {
+    display: block;
 }
 
 .logo .studio-footer {
@@ -239,8 +242,11 @@ address{
     }
 
 .contact-footer {
-    line-height: 1.color-foote71;
+    color: var(--second-text-color-footer);
+    line-height: 1.71;
     font-size: 14px;
+    font-size: 14px;
+    text-decoration: none;
     }
 
 
@@ -274,7 +280,7 @@ address{
     height: 50px;
     margin-bottom: 0px;
 
-/*по уентрі кнопка не знаю чи так*/
+/*по центрі кнопка не знаю чи так*/
     margin: auto;
     display: block;
     
@@ -313,17 +319,14 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 
-.feauter-section .item-section{
-display: block;
-flex-direction: row;
-}
-
 .item-section {
-    display: flex;
-    justify-content: space-between;
     width: 270px;
     height: 98px;
-    background-color: yellow;
+}
+
+.list.feauter-section{
+    display: flex;
+    justify-content: space-around;
 }
 
 .section .section-title{
@@ -358,11 +361,16 @@ ul.list{
     margin-bottom: 0px;
 }
 .list-pictures {
-    display: block;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*section наша команда*/
+.list-card{
+    display: flex;
+    justify-content: space-around;
+}
+
 .team{
     background-color: var(--second-background-color);
 }
@@ -400,6 +408,7 @@ li.card {
 }
 
 div.card-member{
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -429,6 +438,8 @@ div.card-member{
 
 /* button */
 .list.button{
+display: flex;
+justify-content: center;
  margin-top: 0px;
  margin-bottom: 50px;
 }
