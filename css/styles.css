@@ -20,7 +20,9 @@
     --header-bording-color: #ECECEC;
     --card-border: #EEEEEE;
 }
- 
+ .photos{
+    display: flex;
+ } 
 
 body {
     background-color: var(--second-text-color);
@@ -41,7 +43,6 @@ body {
 
 img {
     justify-content: space-between;
-    display: inline;
     flex-direction: row;
     max-width: 100%;
     height: auto;
