@@ -39,7 +39,6 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid blue;
 }
 
 img {
@@ -88,6 +87,11 @@ header{
     padding-bottom: 0px;
     border-bottom: 1px solid var(--header-bording-color);
 }
+
+.container-header{
+    align-items: center;
+}
+
  /* logo header */
 .decoration {
       text-decoration: none;
@@ -164,7 +168,7 @@ header{
 display: flex;
 }
 
-.contact { 
+.contact {
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -214,6 +218,9 @@ section.footer{
     text-decoration: none;
 
     margin-top: 0px;
+}
+
+div.footer-logo{
     margin-bottom: 20px;
 }
 
@@ -231,6 +238,10 @@ address{
     font-style: normal;
 }
 
+li.address-footer{
+    margin-bottom: 9px;
+}
+
 .city {
     color: var(--second-text-color);
     text-decoration: none;
@@ -242,19 +253,31 @@ address{
     }
 
 .contact-footer {
-    color: var(--second-text-color-footer);
     line-height: 1.71;
     font-size: 14px;
     font-size: 14px;
     text-decoration: none;
     }
 
+.mail-number{
+    color: var(--second-text-color-footer);
+    text-decoration: none;
+}
+
+.mail-number:hover,
+.mail-number:focus {
+    color: var(--accent-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 /*main index*/
 /* hero */
-.hero-background{
-    background-color: var(--footer-background-color);
+.hero-background {
+        background-color: var(--footer-background-color);
 }
+
 .hero{
     text-align: center;
     padding-top: 200px;
@@ -408,10 +431,14 @@ li.card {
 }
 
 div.card-member{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .card-title.members {
         font-weight: 500;
         font-size: 16px;
@@ -440,12 +467,17 @@ div.card-member{
 .list.button{
 display: flex;
 justify-content: center;
- margin-top: 0px;
- margin-bottom: 50px;
+margin-top: 0px;
+margin-bottom: 50px;
 }
 
 li.card-border{
     border: 1px solid var(--card-border);
+    margin-bottom: 30px;
+}
+
+.button-portfolio{
+    margin-right: 8px;
 }
 
 .button .secondary {
@@ -482,8 +514,15 @@ li.card-border{
 }
 
 div.portfolio-card {
+    margin-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.cards-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 /* title */
 a .portfolio-title{
