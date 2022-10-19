@@ -33,13 +33,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 img {
     justify-content:space-around;
@@ -50,6 +43,7 @@ img {
     display: inline-flex;
     flex-wrap: wrap;
 }
+
 
 /*скинула відступи у списків*/
 ul {
@@ -282,6 +276,11 @@ li.address-footer{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .hero-title{
     font-weight: 900;
@@ -349,7 +348,7 @@ padding-bottom: 94px;
 
 .list.feauter-section{
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
 }
 
 .section .section-title{
@@ -365,9 +364,7 @@ margin-bottom: 10px;
     color: var(--primary-text-color);
     line-height: 1.7;
     margin-top: 0px;
-    margin-bottom: 118px;
 }
-
 
 /* section Чим ми займаємось*/
 /* h2  */
@@ -385,19 +382,22 @@ ul.list{
 }
 .list-pictures {
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
+}
+.main-pictures{
+    margin-bottom: 94px;
 }
 
 /*section наша команда*/
 .list-card{
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
 }
 
 .team{
     background-color: var(--second-background-color);
 }
-.team .container {
+.section.team {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -420,7 +420,6 @@ ul.list{
 }
 li.card {
     padding-top: 0px;
-    padding-bottom: 30px;
     
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
