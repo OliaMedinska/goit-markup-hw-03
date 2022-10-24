@@ -6,7 +6,7 @@
     name="viewport" 
     content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <!--не знаю чи потрыбны двы першы ссилки на шрифт-->
+    <!--не знаю чи потрібні два перші посилання на шрифт-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -15,33 +15,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="container container-header">
-            <div class="main-nav">
-                <a href="./index.html" class="logo decoration"><span class="web">Web</span><span
-                        class="studio">Studio</span></a>
-                <nav>
-                    <ul class="list site-nav decoration">
-                        <li class="item"><a class="link" href="./index.html">Студія</a></li>
-                        <li class="item"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
-                        <li class="item"><a class="link" href="./index.html">Контакти</a></li>
+    <div class="container">
+        <header>
+            <div class="main-nav container-header">
+                    <a href="./index.html" class="logo decoration"><span class="web">Web</span><span
+                            class="studio">Studio</span></a>
+                    <nav>
+                        <ul class="list site-nav decoration">
+                            <li class="item"><a class="link" href="./index.html">Студія</a></li>
+                            <li class="item"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
+                            <li class="item"><a class="link" href="./index.html">Контакти</a></li>
+                        </ul>
+                    </nav> 
+        
+                    <ul class="list decoration auth-nav">
+                        <li class="item-contact"><a href="mailto:info@devstudio.com"class="contact contact-header">info@devstudio.com</a></li>
+                        <li class="item-contact"><a href="tel:+380961111111" class="contact contact-header"> +38 096 111 11 11</a></li>
                     </ul>
-                </nav> , 
-    
-                <ul class="list decoration auth-nav">
-                    <li class="item-contact"><a href="mailto:info@devstudio.com"
-                            class="contact contact-header">info@devstudio.com</a></li>
-                    <li class="item-contact"><a href="tel:+380961111111" class="contact contact-header"> +38 096 111 11 11
-                        </a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
+                </div>
+            </header>
+    </div>
 
     <main>
         <h1 class="visually-hidden">Портфоліо</h1>
-          <section class="section">
-            <div class="container section-secondary">
+            <div class="container">
+                <section class="section section-secondary">
             <ul class="list button">
                 <li><button type="button" class="secondary button-portfolio">Усі</button></li>
                 <li><button type="button" class="secondary button-portfolio">Додатки</button></li>
@@ -139,7 +137,7 @@
     
         <footer>
             <div class="container">
-                <section class="footer">
+                <div class="footer">
                     <div class="footer-logo"><a href="./index.html" class="logo decoration"><span class="web">Web</span><span
                                 class="studio-footer">Studio</span></a>
                     </div>
@@ -159,7 +157,7 @@
                             </ul>
                         </div>
                     </address>
-                </section>
+                </div>
             </div>
         </footer>
 </body>

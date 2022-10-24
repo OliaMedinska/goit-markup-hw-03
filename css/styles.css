@@ -75,6 +75,15 @@ ul {
     align-items: center;
 }
 
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid blue;
+}
+
 /* header */
 header{
     padding-top: 0px;
@@ -194,7 +203,7 @@ footer{
     display: list-item;
 }
 
-section.footer{
+div.footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
