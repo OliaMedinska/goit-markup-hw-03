@@ -16,7 +16,7 @@
     --button-background-color: #F5F5F5 ;
     --footer-background-color: #2F303A;
     --second-text-color-footer: rgba(255, 255, 255, 0.6);
-    --second-background-color: #F5F4FA;
+    --second-background-color:  #F5F4FA ;
     --header-bording-color: #ECECEC;
     --card-border: #EEEEEE;
 }
@@ -198,7 +198,7 @@ footer{
     display: list-item;
     }
 
-div.footer {
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -290,6 +290,11 @@ li.address-footer{
         background-color: var(--footer-background-color);
 }
 
+.section-hero{
+padding-left: 15px;
+padding-right: 15px;
+}
+
 .hero{
     text-align: center;
     padding-top: 200px;
@@ -297,8 +302,6 @@ li.address-footer{
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .hero-title{
     font-weight: 900;
@@ -404,7 +407,7 @@ ul.list{
 }
 
 .main-pictures {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -493,7 +496,6 @@ gap: 8px;
 
 li.card-border{
     border: 1px solid var(--card-border);
-    margin-bottom: 30px;
 }
 
 li.card-border:nth-child(7){
@@ -548,7 +550,7 @@ div.portfolio-card {
 .cards-portfolio{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 27px;
 }
 
 /* title */
