@@ -494,9 +494,10 @@ margin-bottom: 50px;
 gap: 8px;
 }
 
-li.card-border{
+/* li.card-border {
     border: 1px solid var(--card-border);
 }
+*/
 
 
 li.card-border:nth-child(7){
@@ -546,12 +547,13 @@ div.portfolio-card {
     padding-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 1px solid var(--card-border);
 }
 
 .cards-portfolio{
     display: flex;
     flex-wrap: wrap;
-    gap: 27px;
+    gap: 30px;
 }
 
 /* title */
