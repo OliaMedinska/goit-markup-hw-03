@@ -35,9 +35,9 @@ body {
 
 
 img {
-    justify-content:space-around;
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .list-pictures{
     display: inline-flex;
